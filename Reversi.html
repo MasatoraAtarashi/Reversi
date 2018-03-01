@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<script type="text/javascript" src="https://ipl.sfc.keio.ac.jp/text/info2-2017-9/lib/jquery-3.2.1.min.js"></script>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="Reversi.css">
+		<script type="text/javascript" src="Reversi4.js"></script>
+		<script type="text/javascript" src="timer.js"></script>
+		<script type="text/javascript" src="sensor.js"></script>
+		<title>リバーシ</title>
+	</head>
+	<body onload="startUpTimer();drawMapPresent();initialize();">
+		<header class="header clearfix">
+			<div class="heading">
+				<h1 class="title"><a href="Reversi.html" class="linkTitle">Reversi</a></h1>
+				<p class="heading-sentence">リバーシ</p>
+			</div>
+			<div class="navbar">
+				<ul>
+					<li><a href="Reversi.html" class="link">Home</a></li>
+					<li><a href="ReversiAi.html" class="link">Ai対戦(1)</a></li>
+					<li><a href="ReversiAi2.html" class="link">Ai対戦(2)</a></li>
+					<li><a href="../lifegame/lifegame.html" class="link">ライフゲーム</a></li>
+					<li><a href="https://ja.wikipedia.org/wiki/オセロ_(遊戯)" target="_blank" class="link">リンク</a></li>
+				</ul>
+			</div>
+		</header>
+		<div class="contens clearfix">
+			<div class="left-contents">
+				<h2>経過時間</h2>
+				<input type="text" id="time"><br><br>
+				<p class="explain">光センサーで色が変わります</p>
+				<!-- ターン表示 -->
+				<input type="text" id="turn">
+				<p class="explain">現在地で色が変わります</p>
+				<input type="text" id="piece">
+			</div>
+			<div class="right-contents">
+				<table id="board"></table>
+			</div>
+		</div>
+		<input type="button" id="buttonJustForUseLibrary">
+		<footer>※フリー画像を使用</footer>
+	</body>
+	
+</html>

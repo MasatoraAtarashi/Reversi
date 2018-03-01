@@ -1,0 +1,151 @@
+/*リセット*/
+body {
+	background-color: #f0f0f0;
+	font-size: 14px;
+	color: #333;
+	margin: 0 auto;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+	padding: 10px 0;
+	margin: 0;
+}
+
+header {
+	margin-top: 10px;
+}
+
+.heading {
+	height: 100px;
+	width: 960px;
+	margin: 0 auto;
+}
+
+.navbar {
+	height: 20px;
+	width: 930px;
+	background-color: #fff;
+	margin: 10px auto;
+	padding: 15px;
+}
+
+.navbar ul li{
+	float: left;
+	padding-right: 10px;
+}
+
+/*body*/
+.contents {
+  	width: 960px;
+  	margin: 10px auto;
+}
+
+.left-contents {
+	height: 540px;
+	width: 180px;
+	background-color: #fff;
+	float: left;
+	border-right: 0.5px black solid;
+	padding: 10px;
+	position: relative;
+	left: 153px;
+}
+
+.right-contents {
+	height: 540px;
+	width: 740px;
+	background-color: #fff;
+	float: left;
+	padding: 10px;
+	position: relative;
+	left: 153px;
+}
+
+footer {
+	text-align: center;
+	padding: 10px
+}
+
+.clearfix:after {
+	content: "";
+	clear: both;
+	display: block;
+
+}
+
+.title {
+	font-family: 'Snell Roundhand',sans-serif;
+	font-size: 60px;
+	margin: 0;
+	padding: 0;
+}
+
+.heading-sentence {
+	margin: 0;
+	font-size: 10px;
+}
+
+/*リンク関連*/
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+.link {
+	text-decoration: none;
+	color: blue;
+}
+
+.link:hover {
+	text-decoration: underline;
+}
+
+.link:visited {
+	color: #8a2be2;
+}
+
+.linkTitle {
+	text-decoration: none;
+	color: black;
+}
+
+/*タイム表示*/
+.time {
+	text-align: right;
+}
+
+input[type="text"] {
+	text-align: right;
+	height: 50px;
+	width: 182px;
+	border-style: none;
+	font-size: 30px;
+}
+
+table {
+	background-color: black;
+	border-style: solid;
+	border-color: black;
+	position: relative;
+	table-layout: fixed;
+}
+
+td {
+	background-color: #00ff00;
+	height: 62px;
+	width: 62px;
+}
+
+img {
+	height: 50px;
+	width: 50px;
+	left: 4px;
+	top: 2px;
+	position: relative;
+}
+
+.explain {
+	font-size: 8px;
+	text-align: right;
+}
